@@ -39,9 +39,10 @@
         "mental",
         "social",
         "relationship",
-        "marriages",
+        "marriage",
         "family",
-        "career"
+        "career",
+        "Singles"
       ],
       "required": true
     },
@@ -51,6 +52,10 @@
     },
     "date": {
       "type": "date",
+      "required": true
+    },
+    "author": {
+      "type": "string",
       "required": true
     }
   }
